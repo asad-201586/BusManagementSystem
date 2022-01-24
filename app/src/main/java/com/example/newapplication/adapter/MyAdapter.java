@@ -75,8 +75,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
 
         holder.seatNo.setOnClickListener(view -> {
-            Log.d("ripon_db", "onBindViewHolder: booked_by_id value: "+model.getBooked_by());
-            Log.d("ripon_db", "onBindViewHolder: my_id value: "+userID);
             if (model.getBooked_by().equals(userID)){
                 showAlertDialog(position,holder.seatNo);
             }
@@ -118,8 +116,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         builder.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                //seatTV.setBackgroundColor(context.getResources().getColor(R.color.white));
-                //seatTV.setTextColor(context.getResources().getColor(R.color.black));
+                isMySeatBooked = false;
                 itemClickListener.updateSeat(position);
             }
         });

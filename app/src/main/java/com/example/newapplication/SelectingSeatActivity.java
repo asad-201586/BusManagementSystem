@@ -89,7 +89,7 @@ public class SelectingSeatActivity extends AppCompatActivity implements ItemClic
             return;
         }
 
-        databaseReference.child("Buses").child(busId).addValueEventListener(new ValueEventListener() {
+        databaseReference.child("Buses").child(busId).addListenerForSingleValueEvent(new ValueEventListener() {
             @SuppressLint("NotifyDataSetChanged")
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -158,6 +158,8 @@ public class SelectingSeatActivity extends AppCompatActivity implements ItemClic
                 .child("booked_by")
                 .setValue("").addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
+                        isMySeatBooked = false;
+                        layoutBottom.setVisibility(View.VISIBLE);
                         getData();
                         Toast.makeText(SelectingSeatActivity.this, "Seat unselected", Toast.LENGTH_SHORT).show();
                     }

@@ -118,7 +118,7 @@ public class SeatConfirmActivity extends AppCompatActivity {
     }
 
     private void addBookedBy() {
-        databaseReference.child("Buses").child(busId).child("seat").addValueEventListener(valueEventListener);
+        databaseReference.child("Buses").child(busId).child("seat").addListenerForSingleValueEvent(valueEventListener);
     }
 
     private void setData() {
