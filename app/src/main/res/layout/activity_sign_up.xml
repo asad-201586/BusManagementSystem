@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fontFamily="serif"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/bus_icon" />
+
+    <EditText
+        android:id="@+id/userNameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_back"
+        android:hint="Username"
+        android:fontFamily="serif"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/signUpEmailEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:hint="Email Address"
+        android:fontFamily="serif"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/signUpPasswordEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:hint="Password"
+        android:fontFamily="serif"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/signUpConfirmPasswordEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:hint="Confirm Password"
+        android:fontFamily="serif"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/registerButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_btn"
+        android:text="Register"
+        android:fontFamily="serif"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/loginButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_btn"
+        android:text="Login"
+        android:fontFamily="serif"
+        android:textSize="22sp" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Bus Management"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewApplication">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutApplicationActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AdminActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddBusActivity"
+            android:parentActivityName=".AdminActivity" />
+        <activity
+            android:name=".BusListActivity"
+            android:parentActivityName=".AddBusActivity" />
+        <activity
+            android:name=".AddBusScheduleActivity"
+            android:parentActivityName=".AdminActivity" />
+        <activity
+            android:name=".ScheduleListActivity"
+            android:parentActivityName=".AddBusScheduleActivity" />
+        <activity
+            android:name=".SeatConfirmActivity"
+            android:parentActivityName=".SelectingSeatActivity" />
+        <activity
+            android:name=".SelectingSeatActivity"
+            android:parentActivityName=".SeatBookingActivity" />
+        <activity
+            android:name=".ResetPassword"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TrackingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TeacherInfoActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StoppageActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SettingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SeatBookingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScheduleActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutNstuActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ContactsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SignInActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignUpActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_View">
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/homeMenuId"
+                    android:icon="@drawable/ic_home"
+                    android:title="Home" />
+
+                <item
+                    android:id="@+id/profileMenuId"
+                    android:icon="@drawable/ic_person"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/seatMenuId"
+                    android:icon="@drawable/ic_seat"
+                    android:title="Booked Seat" />
+
+                <item
+                    android:id="@+id/resetPasswordId"
+                    android:icon="@drawable/ic_lock"
+                    android:title="Reset Password" />
+
+                <item
+                    android:id="@+id/logoutId"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+
+            </group>
+
+    <item android:title="Contact">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/chatMenuId"
+                    android:icon="@drawable/ic_chat"
+                    android:title="Message" />
+                <item
+                    android:id="@+id/phoneMenuId"
+                    android:icon="@drawable/ic_phone"
+                    android:title="Phone" />
+                <item
+                    android:id="@+id/shareMenuId"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="About App">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/aboutMenuId"
+                    android:title="About Us" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">NewApplication</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="CSTE_Button">Computer Science And Telecommunication Engineering (CSTE)</string>
+    <string name="ACCE_Button">Applied Chemistry And Chemical Engineering (ACCE)</string>
+    <string name="ICE_Button">Information And Communication Engineering (ICE)</string>
+    <string name="EEE_Button">Electric And Electronic Engineering (EEE)</string>
+    <string name="FIMS_Button">Fisheries And Marine Science (FIMS)</string>
+    <string name="Pharmacy_Button">Pharmacy</string>
+    <string name="MBG_Button">Microbiology</string>
+    <string name="AMath_Button">Applied Mathematics (A.Math)</string>
+    <string name="Statistics_Button">Department of Statistics</string>
+    <string name="FTNS_Button">Food Technology And Nutrition Science(FTNS)</string>
+    <string name="ESDM_Button">Environmental Science And Disaster Management(ESDM)</string>
+    <string name="BMB_Button">Biochemistry And Molecular Biology(BMB)</string>
+    <string name="Zoology_Button">Department of Zoology</string>
+    <string name="Economics_Button">Department of Economics</string>
+
+    <string name="col1">Chourasta</string>
+    <string name="col2">To</string>
+    <string name="col3">Campus</string>
+
+    <string name="row11">Chourasta</string>
+    <string name="row12">Maijdee Bazar</string>
+    <string name="row13">Maijdee Court</string>
+
+    <string name="row21">Dotter Haat</string>
+    <string name="row22">Sonapur</string>
+    <string name="row23">Campus</string>
+
+
+    <string-array name="contact_name">
+
+        <item>Md. Ibne Wajid Islam</item>
+        <item>Mezbah Ul Islam</item>
+        <item>Saddam Hossain</item>
+        <item>Jamal Hossen</item>
+
+        <item>Md. Sirajul Islam</item>
+        <item>Md. Jahangir Alam</item>
+        <item>Md. Khalilur Rahman</item>
+        <item>Md. Abu Sayed</item>
+        <item>Md. Tajul Islam</item>
+        <item>Md. Giyas Uddin (Shohagh)</item>
+        <item>Md. Zakir Hossain</item>
+        <item>Md. Nur Islam (Monir)</item>
+        <item>Md. Jamshed Uddin</item>
+        <item>Md. Anisul Haque (Milon)</item>
+
+        <item>Md. Elias Kanchon</item>
+        <item>Md. Amin Ullah (Roman)</item>
+        <item>Dilip Das</item>
+        <item>Nur Hossain</item>
+        <item>Md. Harun</item>
+        <item>Foridul Haque (Raju)</item>
+        <item>Md. Tazul Islam</item>
+        <item>Md. Alauddin</item>
+        <item>Md. Faisal Ahmed (Jony)</item>
+        <item>Md. Alauddin</item>
+
+        <item>Md. Yusuf Ali</item>
+        <item>Md. Rahamat Ullah</item>
+        <item>Md. Anowar Hossain</item>
+        <item>Md. Azizul Haque (Rasel)</item>
+        <item>Md. Azmir Hossain</item>
+        <item>Md. Ruposh Miah</item>
+        <item>Md. Sanowar Hossain</item>
+        <item>Md. Kamal Hossain</item>
+        <item>Md. Monir Hossain</item>
+
+    </string-array>
+
+    <string-array name="contact_post">
+
+        <item>Transport Officer</item>
+        <item>Computer Operator</item>
+        <item>Computer Operator</item>
+        <item>Foreman</item>
+
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+        <item>Driver</item>
+
+    </string-array>
+
+    <string-array name="contact_phone">
+
+        <item>01716109765</item>
+        <item>01670491041</item>
+        <item>01829282708</item>
+        <item>01819505957</item>
+
+        <item>01819534076</item>
+        <item>01714339947</item>
+        <item>01717115268</item>
+        <item>01716237920</item>
+        <item>01721113593</item>
+        <item>01864382495</item>
+        <item>01821568220</item>
+        <item>01829314083</item>
+        <item>01840832027</item>
+        <item>01832361881</item>
+
+        <item>01812933470</item>
+        <item>01836136405</item>
+        <item>01631418918</item>
+        <item>01811379108</item>
+        <item>01834951369</item>
+        <item>01742310286</item>
+        <item>01721113593</item>
+        <item>           </item>
+        <item>01721785344</item>
+        <item>01789363488</item>
+
+        <item>01829787838</item>
+        <item>01843970096</item>
+        <item>01843131281</item>
+        <item>01852205542</item>
+        <item>01988822519</item>
+        <item>01991129563</item>
+        <item>01725331706</item>
+        <item>01644227170</item>
+        <item>01910521894</item>
+    </string-array>
+
+
+
+</resources>

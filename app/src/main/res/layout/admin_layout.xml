@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A11390C8"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/adminPopId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Admin Passcode"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:background="@drawable/button_back"/>
+
+
+</LinearLayout>
